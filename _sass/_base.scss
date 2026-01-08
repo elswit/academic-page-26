@@ -592,6 +592,8 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  text-transform: capitalize;
+
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }

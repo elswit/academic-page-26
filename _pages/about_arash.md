@@ -1,0 +1,1 @@
+Director of CSML. Assistant Professor in the Department of Computer Engineering and Computer Science at California State University, Long Beach. Research interests include scientific machine learning, computational science, and uncertainty quantification.

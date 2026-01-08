@@ -1,0 +1,1 @@
+Carol Gudumotu is a graduate computer science student at CSULB. Her Master's thesis focuses on Uncertainty Quantification in deep learning neural networks. Her academic interests include Machine Learning and Software development.

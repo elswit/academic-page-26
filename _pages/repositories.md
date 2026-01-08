@@ -1,47 +1,59 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+permalink: /software/
+title: software
+description: Open source software from the CSML Lab
 nav: true
-nav_order: 4
+nav_order: 7
 ---
 
-{% if site.data.repositories.github_users %}
+## ODE Test Problems
 
-## GitHub users
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
+<div class="row">
+  <div class="col-sm-4">
+    <img src="/assets/img/research/lorenz.png" alt="ODE Test Problems" class="img-fluid rounded">
   </div>
+  <div class="col-sm-8">
+
+`ODE Test Problems` is an object-oriented Octave/Matlab package offering a broad range of initial value problems in the form of ordinary and differential-algebraic equations that can be used to test numerical methods such as time integration or data assimilation methods.
+
+It includes problems that are linear and nonlinear, homogeneous and nonhomogeneous, autonomous and nonautonomous, scalar and high-dimensional, stiff and nonstiff, and chaotic and nonchaotic. Many are real-world problems from fields such as chemistry, astrophysics, meteorology, and electrical engineering.
+
+**Links:** [GitHub Repository](https://github.com/ComputationalScienceLaboratory/ODE-Test-Problems)
+
+  </div>
+</div>
 
 ---
 
-{% endfor %}
-{% endif %}
-{% endif %}
+## Markov Chain Monte Carlo Demo
 
-{% if site.data.repositories.github_repos %}
+<div class="row">
+  <div class="col-sm-4">
+    <img src="/assets/img/research/mcmc-demo.png" alt="MCMC Demo" class="img-fluid rounded">
+  </div>
+  <div class="col-sm-8">
 
-## GitHub Repositories
+This is an interactive demonstration of the Metropolis-Hastings algorithm for a nonlinear curve fitting problem. It uses MCMC to find parameters of a model that best fits the data (without using any gradients). Great for teaching Bayesian inference concepts!
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
+**Links:** [GitHub Repository](https://github.com/elswit/mcmc-demo) &#124; [Live Demo](https://mcmc-demo.streamlit.app/)
+
+  </div>
 </div>
-{% endif %}
+
+---
+
+## Darts
+
+<div class="row">
+  <div class="col-sm-4">
+    <img src="https://github.com/elswit/dart/blob/main/darts.png?raw=true" alt="Darts" class="img-fluid rounded">
+  </div>
+  <div class="col-sm-8">
+
+`Darts` is a simple python program that simulates an **imperfect** dart throw event. Use it as an entry example to learn the basics of inverse problems. The goal is to correct the angles of the throw such that darts land close to the bulls eye.
+
+**Links:** [GitHub Repository](https://github.com/csml-beach/dart)
+
+  </div>
+</div>
