@@ -19,7 +19,9 @@ nav_order: 7
 
 It includes problems that are linear and nonlinear, homogeneous and nonhomogeneous, autonomous and nonautonomous, scalar and high-dimensional, stiff and nonstiff, and chaotic and nonchaotic. Many are real-world problems from fields such as chemistry, astrophysics, meteorology, and electrical engineering.
 
-**Links:** [GitHub Repository](https://github.com/ComputationalScienceLaboratory/ODE-Test-Problems)
+<div class="links">
+  <a href="https://github.com/ComputationalScienceLaboratory/ODE-Test-Problems" class="btn z-depth-0" role="button"><i class="fab fa-github"></i> GitHub</a>
+</div>
 
   </div>
 </div>
@@ -36,7 +38,10 @@ It includes problems that are linear and nonlinear, homogeneous and nonhomogeneo
 
 This is an interactive demonstration of the Metropolis-Hastings algorithm for a nonlinear curve fitting problem. It uses MCMC to find parameters of a model that best fits the data (without using any gradients). Great for teaching Bayesian inference concepts!
 
-**Links:** [GitHub Repository](https://github.com/elswit/mcmc-demo) &#124; [Live Demo](https://mcmc-demo.streamlit.app/)
+<div class="links">
+  <a href="https://github.com/elswit/mcmc-demo" class="btn z-depth-0" role="button"><i class="fab fa-github"></i> GitHub</a>
+  <a href="https://mcmc-demo.streamlit.app/" class="btn z-depth-0" role="button"><i class="fas fa-play"></i> Live Demo</a>
+</div>
 
   </div>
 </div>
@@ -53,7 +58,9 @@ This is an interactive demonstration of the Metropolis-Hastings algorithm for a 
 
 `Darts` is a simple python program that simulates an **imperfect** dart throw event. Use it as an entry example to learn the basics of inverse problems. The goal is to correct the angles of the throw such that darts land close to the bulls eye.
 
-**Links:** [GitHub Repository](https://github.com/csml-beach/dart)
+<div class="links">
+  <a href="https://github.com/csml-beach/dart" class="btn z-depth-0" role="button"><i class="fab fa-github"></i> GitHub</a>
+</div>
 
   </div>
 </div>
