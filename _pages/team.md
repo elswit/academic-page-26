@@ -87,4 +87,4 @@ If you are interested in pursuing research in this exciting and rapidly growing 
 
 ---
 
-## Current Members
+## Members

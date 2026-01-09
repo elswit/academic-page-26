@@ -1,17 +1,56 @@
 ---
 ---
 
-@article{sarshar2022cpinn,
-  abbr={AAAI},
+@article{Sarshar2025physicsinformed,
+  abbr={CAMC},
   title={Physics-informed neural networks for PDE-constrained optimization and control},
-  author={Sarshar, Arash and Sandu, Adrian},
-  journal={AAAI KGML Fall Series Symposium},
-  year={2022},
-  arxiv={2205.03377},
-  pdf={https://arxiv.org/pdf/2205.03377},
-  abstract={A rapidly growing area of research is the use of machine learning approaches such as autoencoders for dimensionality reduction of data and models in scientific applications. We show that the canonical formulation of autoencoders suffers from several deficiencies that can hinder their performance. Using a meta-learning approach, we reformulate the autoencoder problem as a bi-level optimization procedure that explicitly solves the dimensionality reduction task.},
-  keywords={Machine Learning, Optimization and Control},
-  selected={true}
+  author={Barry-Straume, Jostein and Sarshar, Arash and Popov, Andrey A and Sandu, Adrian},
+  journal={Communications on Applied Mathematics and Computation},
+  pages={1--24},
+  year={2025},
+  publisher={Springer},
+  html={https://link.springer.com/article/10.1007/s42967-025-00499-x},
+  doi = {https://doi.org/10.1007/s42967-025-00499-x},
+  pdf = {https://link.springer.com/content/pdf/10.1007/s42967-025-00499-x.pdf},
+  abstract={The goal of optimal control is to determine a sequence of inputs for maximizing or minimizing a given performance criterion subject to the dynamics and constraints of the system under observation. This work introduces Control Physics-Informed Neural Networks (PINNs), which simultaneously learn both the system states and the optimal control signal in a single-stage framework that leverages the system’s underlying physical laws. While prior approaches often follow a two-stage process-modeling, the system first and then devising its control—the presented novel framework embeds the necessary optimality conditions directly into the network architecture and loss function. We demonstrate the effectiveness of the novel methodology by solving various open-loop optimal control problems governed by analytical, one-dimensional, and two-dimensional partial differential equations (PDEs).},
+  keywords={Optimal control, Physics-informed neural networks, Partial differential equations, Machine learning},
+  selected={true},
+  video={https://youtu.be/SOHPQA5YR7s?si=VgcxB197wOx_-aPA}
+}
+
+@article{sarshar2024improving,
+  abbr={JMLMC},
+  title={Improving ADAM through an Implicit-Explicit (IMEX) Time-Stepping Approach},
+  author={Bhattacharjee, Abhinab and Popov, Andrey A and Sarshar, Arash and Sandu, Adrian},
+  journal={Journal of Machine Learning for Modeling and Computing},
+  volume={5},
+  number={3},
+  year={2024},
+  publisher={Begel House Inc.},
+  doi={10.1615/JMachLearnModelComput.2024053508},
+  html={https://www.dl.begellhouse.com/journals/558048804a15188a,7dd2ba1c3481309f,499cb94c7a94a534.html},
+  pdf={https://www.dl.begellhouse.com/download/article/499cb94c7a94a534/JMLMC0503(3)-53508.pdf},
+  abstract={The ADAM optimizer, often used in machine learning for neural network training, corresponds to an underlying ordinary differential equation (ODE) in the limit of very small learning rates. This work shows that the classical ADAM algorithm is a first-order implicit-explicit (IMEX) Euler discretization of the underlying ODE. Employing the time discretization point of view, we propose new extensions of the ADAM scheme obtained by using higher-order IMEX methods to solve the ODE. Based on this approach, we derive a new optimization algorithm for neural network training that performs better than classical ADAM on several regression and classification problems.},
+  keywords={Optimization algorithms, Deep learning, ordinary differential equations, neural networks},
+  selected={true},
+  slides = {adam-gark.pdf}
+}
+
+@article{Sarshar2025deeponetsbaye,
+abbr={CPC},
+title = {Deep operator networks for Bayesian parameter estimation in PDEs},
+journal = {Computer Physics Communications},
+volume = {317},
+pages = {109853},
+year = {2025},
+issn = {0010-4655},
+doi = {https://doi.org/10.1016/j.cpc.2025.109853},
+url = {https://www.sciencedirect.com/science/article/pii/S0010465525003558},
+author = {Amogh Raj and Sakol Bun and Keerthana Srinivasa and Carol Eunice Gudumotou and Arash Sarshar},
+keywords = {Physics-informed neural networks, Partial differential equations, Parameter estimation, Machine learning},
+abstract = {We present a novel framework combining Deep Operator Networks (DeepONets) with Physics-Informed Neural Networks (PINNs) to solve partial differential equations (PDEs) while estimating their unknown parameters. By integrating data-driven learning with physical constraints, our method achieves robust and accurate solutions across diverse scenarios. Bayesian training is implemented through variational inference, allowing for comprehensive uncertainty quantification for both data and model uncertainties. This ensures reliable prediction and parameter estimates even in noisy conditions or when some of the physical equations governing the problem are missing. The framework demonstrates its efficacy in solving forward and inverse problems, including the 1D unsteady heat equation, 2D reaction-diffusion equations, 3D eigenvalue problem, and various regression tasks with sparse, noisy observations. This approach provides a computationally efficient and generalizable method for addressing uncertainty quantification in PDE surrogate modeling.},
+selected={true},
+video={https://youtu.be/1iTHm9u9lr0?si=H3hpCH4xsPjRYkcG}
 }
 
 @article{sarshar2021glmadi,

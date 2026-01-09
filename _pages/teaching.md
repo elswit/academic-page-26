@@ -43,7 +43,6 @@ Advanced topics in AI and machine learning with emphasis on theoretical foundati
 ### Previous Teaching
 
 - **Applied Machine Learning** - Graduate course covering practical ML applications
-- **Computing Theory** - Undergraduate course on computational theory
 - **Numerical Methods** - Undergraduate course on numerical computing
 - **Pattern Recognition** - Graduate course on statistical pattern recognition
-- **Uncertainty in AI** - Graduate course on probabilistic methods in AI
+- **Computer Simulation and Modeling** - Graduate course on probabilistic methods in simulation and modeling

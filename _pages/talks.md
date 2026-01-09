@@ -64,7 +64,7 @@ nav_order: 5
     <p class="card-text">March 2022 — Ontario, Canada</p>
     <p class="card-text">Gradient-based optimization methods are essential in neural network training in many applications. The evolution of neural network parameters can be considered as an ODE system evolving in pseudo-time towards a local minimum of the objective function. This interpretation allows us to use different time-stepping schemes for the optimization.</p>
     <p>
-      <a href="/files/adam-gark-slides.pdf" class="btn btn-sm btn-outline-primary"><i class="fas fa-file-powerpoint"></i> Slides</a>
+      <a href="/assets/pdf/adam-gark.pdf" class="btn btn-sm btn-outline-primary"><i class="fas fa-file-powerpoint"></i> Slides</a>
       <a href="https://vtechworks.lib.vt.edu/handle/10919/109996" class="btn btn-sm btn-outline-primary"><i class="fas fa-file-alt"></i> Preprint</a>
     </p>
   </div>
