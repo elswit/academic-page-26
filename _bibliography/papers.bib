@@ -13,7 +13,8 @@
   pdf={https://arxiv.org/pdf/2510.18195},
   publisher={Elsevier},
   selected={false},
-  abstract = {The objective of designing a control system is to steer a dynamical system with a control signal, guiding it to exhibit the desired behavior. The Hamilton-Jacobi-Bellman (HJB) partia[...] 
+  abstract = {Physics-informed neural networks offer a scalable alternative to grid-based dynamic programming for solving Hamilton–Jacobi–Bellman (HJB) equations, but stable training and accurate feedback-policy recovery remain challenging for nonlinear systems and infinite-horizon objectives. This paper presents an ensemble closed-loop physics-informed framework that learns a differentiable approximation of the cost-to-go by minimizing an HJB-residual loss and recovers the feedback policy from value gradients. Reference solutions—analytic for linear–quadratic regulators and numerical otherwise—are used to warm-start training and to quantitatively evaluate value and policy errors. A broadened benchmark suite spanning linear–quadratic regulation, higher-dimensional cubic dynamics, and cart-pole and pendulum systems is examined, with comparisons against hard constraint embedding via the theory of functional connections, a Bellman-consistent actor–critic neural baseline, and value iteration. Ablations isolate the effects of warm-starting and boundary conditioning, and residual-weight scheduling characterizes the trade-off between value learning and policy recovery. Across benchmarks, the proposed method is most competitive on nonlinear pendulum dynamics, achieving the lowest value-function error and improved policy accuracy relative to dynamic-programming baselines, while constraint-embedding methods remain stronger on several linear–quadratic cases.}
+
 }
 
 @article{Sarshar2025physicsinformed,
